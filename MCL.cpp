@@ -190,7 +190,7 @@ double max(double arr[], int n)
     }
     return max;
 }
-/*
+
 void visualization(int n, Robot robot, int step, Robot p[], Robot pr[])
 {
 	//Draw the robot, landmarks, particles and resampled particles on a graph
@@ -222,7 +222,7 @@ void visualization(int n, Robot robot, int step, Robot p[], Robot pr[])
     plt::save("./Images/Step" + to_string(step) + ".png");
     plt::clf();
 }
-*/
+
 
 int main()
 {
